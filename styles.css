@@ -1,0 +1,13 @@
+<style>
+    body {
+        background-image: url("./images/Flag Mtn.jpg");
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: cover;
+    }
+
+    div.a p {
+        text-indent: 10%;
+        text-indent: hanging 15%;
+    }
+</style>

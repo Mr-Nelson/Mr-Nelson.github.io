@@ -1,4 +1,3 @@
-<style>
     body {
         background-image: url("./images/Flag Mtn.jpg");
         background-repeat: no-repeat;
@@ -6,8 +5,10 @@
         background-size: cover;
     }
 
-    div.a p {
+    div.a {
         text-indent: 10%;
         text-indent: hanging 15%;
     }
-</style>
+    img {
+        border-radius: 8px;
+    }

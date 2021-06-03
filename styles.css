@@ -45,6 +45,12 @@ h1 {
 .topnav:hover {
     background-color: #A5E2FF;
 }
+article, section {
+    margin-bottom: 30px;
+}
+section {
+    margin-top: 60px;
+}
 div.a, div.b {
     text-indent: 50px;
 }

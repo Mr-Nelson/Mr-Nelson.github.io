@@ -1,11 +1,3 @@
-@media only screen and (max-width: 600px) {
-    .column {
-      width: 50%;
-    }
-    div.b {
-        width: 100%;
-    }
-  }
 img {
     border-radius: 8px
 }
@@ -116,4 +108,12 @@ p:hover{
 }
 form {
     width: 50%
+}
+@media screen and (max-width: 600px) {
+    .column {
+      width: 50%;
+    }
+    div.b {
+        width: 100%;
+    }
 }

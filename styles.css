@@ -1,107 +1,111 @@
-    body {
-        background-image: url("./images/South Dakota.jpg");
-        background-repeat: no-repeat;
-        background-attachment: fixed;
-        background-size: cover;
-        font-size: 16px;
-        font-weight: bolder;
-        font-family: "blogger","book antiqua", sans-serif;
-    }
-    .header {
-        width: 100%;
-        margin-bottom: 30px;
-    }
-    h1 {
-        text-align: center;
-        font-family: "Constantia", "Microsoft Uighur", serif;
-        color: #E8EEF1;
-        background-color:#1E3D58;    
-    }
-    .center {
-        display: block;
-        margin-left: auto;
-        margin-right: auto;
-        width: 50%;
-    }
-    .navbar {
-        width: 100%;
-        list-style-type: none;
-        margin: 0;
-        padding: 0;
-        float: left;
-        margin-bottom: 30px;
-        background-color: #E8EEF1;
-    }
-    c {
-        float: left;
-        display: block;
-        padding: 8px;
-    }
-    .navbar c:hover {
-        background-color: #A5E2FF;
-    }
-   div.a, div.b {
-        text-indent: 50px;
-    }
-    div.b {
-        width: 50%;
-    }
-    img {
-        border-radius: 8px
-    }
-    p {
-        white-space: normal;
-    }
-    form {
-        width: 50%
-    }
-    .column {
-        float: left;
-        width: 25%;
-        padding: 0px;
-    }
-    .row::after {
-        content: "";
-        clear: both;
-        display:-ms-inline-flexbox;
-    }
-    .container {
-        position: relative;
-        width: 100%;
+img {
+    border-radius: 8px
 }
-
-    .image {
-        display: square;
-        width: 100%;
-        height: auto;
+body {
+    background-image: url("./images/South Dakota.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    font-size: 16px;
+    font-weight: bolder;
+    font-family: "blogger","book antiqua", sans-serif;
 }
-
-      .overlay {
-        border-radius: 50%;
-        position: absolute;
-        top: 19%;
-        bottom: 0;
-        left: 19%;
-        right: 0;
-        height: 61%;
-        width: 61%;
-        opacity: 0;
-        transition: .5s ease;
-        background-color: #1E3D58;
-      }
-      
-      .container:hover .overlay {
-        opacity: 1;
-      }
-      
-      .text {
-        color: #E8EEF1;
-        font-size: 20px;
-        position: absolute;
-        top: 50%;
-        left: 50%;
-        -webkit-transform: translate(-50%, -50%);
-        -ms-transform: translate(-50%, -50%);
-        transform: translate(-50%, -50%);
-        text-align: center;
-      }
+.header {
+    width: 100%;
+    margin-bottom: 30px;
+}
+h1 {
+    text-align: center;
+    font-family: "Constantia", "Microsoft Uighur", serif;
+    color: #E8EEF1;
+    background-color:#1E3D58;    
+}
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 500px;
+}
+.navbar {
+    width: 100%;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    float: left;
+    margin-bottom: 30px;
+    background-color: #E8EEF1;
+    overflow: hidden;
+}
+.topnav {
+    float: left;
+    display: block;
+    padding: 14px 16px;
+    text-align: center;
+}
+.topnav:hover {
+    background-color: #A5E2FF;
+}
+div.a, div.b {
+    text-indent: 50px;
+}
+div.b {
+    width: 50%;
+}
+p {
+    white-space: normal;
+}
+p:hover{
+    display: block;
+    border-radius: 8px;
+    background-color: #A5E2FF;
+    opacity: 40%;
+}
+.column {
+    float: left;
+    width: 25%;
+    padding: 0px;
+}
+.row::after {
+    content: "";
+    clear: both;
+    display:-ms-inline-flexbox;
+}
+.container {
+    position: relative;
+    width: 100%;
+}
+.image {
+    display: square;
+    width: 100%;
+    height: auto;
+}
+.overlay {
+    border-radius: 50%;
+    position: absolute;
+    top: 19%;
+    bottom: 0;
+    left: 19%;
+    right: 0;
+    height: 61%;
+    width: 61%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: #1E3D58;
+}
+.container:hover .overlay {
+    opacity: 1;
+}
+.text {
+    color: #E8EEF1;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+form {
+    width: 50%
+}

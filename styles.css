@@ -35,16 +35,45 @@
     .row::after {
         content: "";
         clear: both;
-        display: table;
+        display:-ms-inline-flexbox;
     }
     .container {
         position: relative;
-        text-align: center;
-        color: white;
-    }
-    .centered {
+        width: 100%;
+}
+
+    .image {
+        display: square;
+        width: 100%;
+        height: auto;
+}
+
+      .overlay {
+        border-radius: 50%;
+        position: absolute;
+        top: 19%;
+        bottom: 0;
+        left: 19%;
+        right: 0;
+        height: 61%;
+        width: 61%;
+        opacity: 0;
+        transition: .5s ease;
+        background-color: #1E3D58;
+      }
+      
+      .container:hover .overlay {
+        opacity: 1;
+      }
+      
+      .text {
+        color: #E8EEF1;
+        font-size: 20px;
         position: absolute;
         top: 50%;
         left: 50%;
+        -webkit-transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
         transform: translate(-50%, -50%);
+        text-align: center;
       }

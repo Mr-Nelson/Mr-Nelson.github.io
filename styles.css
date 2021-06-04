@@ -2,7 +2,7 @@ img {
     border-radius: 8px
 }
 body {
-    background-image: url("./images/South Dakota.jpg");
+    background-image: url("./images/South Dakota.png");
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
@@ -53,8 +53,6 @@ section {
 }
 div.a, div.b {
     text-indent: 50px;
-}
-div.b {
     width: 50%;
 }
 p {
@@ -119,7 +117,7 @@ form {
     .column {
       width: 50%;
     }
-    div.b {
+    div.a, div.b {
         width: 100%;
     }
 }

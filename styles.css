@@ -58,12 +58,6 @@ div.a, div.b {
 p {
     white-space: normal;
 }
-p:hover{
-    display: block;
-    border-radius: 8px;
-    background-color: #A5E2FF;
-    opacity: 40%;
-}
 .column {
     float: left;
     width: 25%;
